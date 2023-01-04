@@ -1,0 +1,16 @@
+POST http://localhost:9000/api/login
+Content-Type: application/json
+
+{
+ "email": "admin2020@caos.com",
+ "password": "Entrada2021"
+}
+
+###
+
+POST http://localhost:9000/api/paises HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJsbWVkcmFubyIsInBhc3N3b3JkIjoiRW50cmFkYTIwMjEifSwiaWF0IjoxNjY0Njc4MTc0LCJleHAiOjE2NjQ2ODE3NzR9.iigC78Fd3aBBGAfluGB9Lg5EFHZBwtAymf02Iwz9XtI
+
+{ 
+}
